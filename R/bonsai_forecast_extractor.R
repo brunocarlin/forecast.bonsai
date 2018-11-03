@@ -23,4 +23,5 @@ colnames(matrix_extracted_object) <- paste(colname_logic,
                                        1:length(matrix_extracted_object[1, ]),
                                        sep = "")
 rownames(matrix_extracted_object) <- names(forecast_functions)
+return(matrix_extracted_object)
 }
