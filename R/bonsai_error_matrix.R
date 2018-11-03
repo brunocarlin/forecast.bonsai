@@ -4,7 +4,6 @@
 #' @param list_accuracy a list with all the accuracy measures
 #' @return A list with all the errors
 #' @export
-
 bonsai_error_matrix <- function(list_accuracy) {
   row_names <- names(list_accuracy)
   col_names <- colnames(list_accuracy[[1]])
