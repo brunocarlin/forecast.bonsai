@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Author: Bruno Carlin <brunotestaguzza@gmail.com>
 Maintainer: Bruno Carlin <brunotestaguzza@gmail.com>
 Description: A bunch of helper functions to test different forecast steategies and to finally execute one.
-Depends: R (>= 3.5.1)
+Depends: R (>= 3.5.1) , forecast, tidyverse
 License: MIT
 Encoding: UTF-8
 LazyData: true
