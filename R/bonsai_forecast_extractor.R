@@ -9,7 +9,7 @@
 #' @export 
 bonsai_forecast_extractor <-
   function(list_forecasts,
-           extract_object = "means",
+           extract_object = "mean",
            forecast_functions,
            colname_logic = "h=") {
 extracted_object <- lapply(list_forecasts,
