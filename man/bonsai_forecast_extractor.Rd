@@ -4,7 +4,7 @@
 \alias{bonsai_forecast_extractor}
 \title{Extracts specifc parts of forecasts}
 \usage{
-bonsai_forecast_extractor(list_forecasts, extract_object = "means",
+bonsai_forecast_extractor(list_forecasts, extract_object = "mean",
   forecast_functions, colname_logic = "h=")
 }
 \arguments{
