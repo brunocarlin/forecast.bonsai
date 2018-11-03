@@ -15,6 +15,7 @@ bonsai_forecast_extractor <-
 extracted_object <- lapply(list_forecasts,
                            `[`,
                            extract_object)
+
 matrix_extracted_object <-
   matrix(unlist(extracted_object),
          nrow = length(extracted_object),
